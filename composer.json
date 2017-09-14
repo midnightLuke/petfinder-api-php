@@ -1,0 +1,21 @@
+{
+    "name": "midnightluke/petfinder-api-php",
+    "require": {
+        "guzzlehttp/guzzle": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Bainbridge",
+            "email": "luke.bainbridge@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MidnightLuke\\PetfinderApi\\": "src/"
+        }
+    },
+    "require-dev": {
+        "kint-php/kint": "^2.2"
+    }
+}
